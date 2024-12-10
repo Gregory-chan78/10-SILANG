@@ -1,0 +1,76 @@
+body {
+    box-sizing: border-box;
+	background-image: url("indigo.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+header {
+	position: sticky;
+	top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #474787; 
+    padding: 20px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.qwq a {
+	text-decoration: none;
+	color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+	padding: 10px
+}
+
+nav a:hover {
+	background-color: white;
+    color: #2C2C54; 
+	padding: 10px;
+	border-radius: 25px;
+}
+
+nav a:active {
+  color: white;
+  background-color: #2C2C54;
+}
+
+h1 { 
+	margin-left: 2.5em;
+	font-size: 1em;
+}
+h3 { 
+	margin-left: 1em;
+	margin-top: 0px;
+	font-size: 2.5em;
+}
+p { 
+	text-indent: 50px;
+	font-family:	Arial, sans-serif;
+	font-size:	1.6em;
+	text-align: justify;
+	margin-left: 2em;
+	margin-right: 10em;
+	line-height: 1.5;
+}
